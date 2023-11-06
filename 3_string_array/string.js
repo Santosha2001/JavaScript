@@ -27,3 +27,4 @@ console.log(str4.startsWith("is")); //false
 console.log(str4.endsWith("language")); //true
 console.log(str4.endsWith("e")); //true
 
+

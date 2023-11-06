@@ -27,5 +27,12 @@ console.log(arr3.reverse()); //reverse array
 console.log(arr3.sort(compare)); //sort with compare function
 console.log();
 
+//slice(): is used to retrive the items from speified index range.
 let arr4 = [64, 43, 23, 45, 97, 89];
-console.log(arr4.slice(2, 5));
+console.log(`sliceing items: ${arr4.slice(2, 5)}`);
+
+
+//spliting array items 
+let arr5="Manchester,London,Liverpool,Birmingham,Leeds,Carlisle";
+let cities=arr5.split(',');
+console.log(`spliting array items: ${cities}`);

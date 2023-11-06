@@ -18,8 +18,7 @@ for (let i of arr) {
 }
 console.log();
 
-let name = "santhu";
-console.log(Array.from(name)); //creates an array
-console.log(name);
-
+const na = "santhu";
+console.log(Array.from(na)); //creates an array
+console.log(na);
 
