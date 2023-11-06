@@ -7,6 +7,7 @@ let d = Symbol("it is symbol");
 let e = false;
 let f = BigInt("7022590204");
 let g = undefined;
+let number = 24.4543345443344433;
 
 console.log(a, b, c, d, e, f, g);
 console.log();
@@ -29,3 +30,6 @@ const obj = {
 }
 console.log(obj);
 console.log(typeof obj);
+
+//to round numbe rto fixed number of decimal places
+console.log(number.toFixed(3));

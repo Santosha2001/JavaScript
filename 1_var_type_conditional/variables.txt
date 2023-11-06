@@ -1,0 +1,8 @@
+Variables: 
+JS is the dynamicaly typed lanugagr means, no need to specify the type of data that variable contain.
+
+To declare  a variable there are three ways
+1. var      2. let      3. const
+using these we can declare and initialize the variable.
+
+We can reassign value to the variables. But in case of const we can't reassign the value to variable.
