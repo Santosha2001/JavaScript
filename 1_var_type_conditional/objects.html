@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objects</title>
+</head>
+
+<body>
+    <script>
+        let obj = {
+            "name": "Santosha c",
+            "age": 22,
+            "college": "ubdt",
+            "state": "Karnataka",
+            "qualification": "BE",
+            "country belongs to": "India",
+        }
+        console.log(obj);
+        console.log(typeof obj);
+
+        // to access a element
+        console.log(obj.name);
+
+        //to access key of multiword 
+        console.log(obj['country belongs to'])
+
+        console.log("*********************************************");
+
+        //to iterate over the object
+        for (const key in obj) {
+            if (obj.hasOwnProperty.call(obj, key)) {
+                const element = obj[key];
+                console.log(element);
+            }
+        }
+        console.log("***************************");
+
+        //add property to object
+        obj["gender"] = "male";
+        console.log(obj);
+
+        //delete a property
+        delete obj["age"];
+        console.log(obj);
+    </script>
+</body>
+
+</html>
