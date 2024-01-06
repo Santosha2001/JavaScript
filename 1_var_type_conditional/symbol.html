@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Symbol</title>
+</head>
+
+<body>
+    <script>
+        let id = Symbol("description of the symbol");
+        console.log(id);
+
+        let name = Symbol("Name of the symbol.");
+        let identity = Symbol("description of the symbol");
+
+        console.log(id == identity); //false two symbols are not equal.
+
+
+        // gives error because symbol can't auto converts to string.
+        //alert(id)
+        alert(id.toString());
+
+        //for description only
+        alert(id.description);
+        alert(name.description);
+    </script>
+    </script>
+</body>
+
+</html>
