@@ -27,3 +27,35 @@ let b = arr3.reduce((n1, n2) => {
     return n1 + n2;
 })
 console.log(`reduce() reduces the array into a single value: ${b}`);
+
+//filter(), map(), 
+let filterArray = [
+    { age: 22, height: 165, },
+    { age: 21, height: 160, },
+    { age: 22, height: 163, },
+]
+
+//filter
+let ageHeight = filterArray.filter((item) => item.age > 21);
+
+for (const ele of ageHeight) {
+    console.log(ele);
+}
+console.log("**************************")
+
+let map = filterArray.map((item) => item.height);
+
+for (const ite of map) {
+    console.log(ite)
+}
+
+//sort() to elements in order.
+let compare = (num1, num2) => {
+    if (num1 > num2) return 1;
+    if (num1 == num2) return 0;
+    if (num1 < num2) return -1;
+}
+
+let numberArray = [3, 2, 94, 22];
+
+console.log(numberArray.sort(compare));

@@ -27,3 +27,13 @@ console.log(`modiyed value at index 6: ${marks}`);
 for (let i = 0; i < marks.length; i++) {
     console.log(` ${marks[i]}`);
 }
+console.log("********************************************************")
+
+let newArray = [2, 4, true, "JS", { name: "santosh" }, function () { alert("functio in array.") }];
+console.log(newArray.length)
+console.log(newArray[1]);
+console.log(newArray[2]);
+console.log(newArray[4].name);
+console.log(newArray.at(-1));
+
+console.log(newArray.toString());

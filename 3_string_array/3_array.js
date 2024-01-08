@@ -33,6 +33,19 @@ console.log(`sliceing items: ${arr4.slice(2, 5)}`);
 
 
 //spliting array items 
-let arr5="Manchester,London,Liverpool,Birmingham,Leeds,Carlisle";
-let cities=arr5.split(',');
+let arr5 = "Manchester,London,Liverpool,Birmingham,Leeds,Carlisle";
+let cities = arr5.split(',');
 console.log(`spliting array items: ${cities}`);
+
+//filter() is ised to filter the elements form the array.
+let filterArray = [
+    { age: 22, height: 165, },
+    { age: 21, height: 160, },
+    { age: 22, height: 163, },
+]
+
+let ageHeight = filterArray.filter((item) => item.age > 21);
+
+for (const ele of ageHeight) {
+    console.log(ele);
+}

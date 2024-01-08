@@ -27,4 +27,13 @@ console.log(str4.startsWith("is")); //false
 console.log(str4.endsWith("language")); //true
 console.log(str4.endsWith("e")); //true
 
+console.log("*****************************")
 
+//to access the character using at() method is allow used.
+let inputString = "this is a stirng.";
+console.log(inputString.charAt(2));
+
+for (const item of inputString) {
+    console.log(item);
+}
+console.log("*****************************")
