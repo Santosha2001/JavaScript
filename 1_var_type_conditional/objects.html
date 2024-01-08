@@ -44,6 +44,16 @@
         //delete a property
         delete obj["age"];
         console.log(obj);
+
+        //function as a property in object.
+        let user = {
+            name: "Jhon",
+            Country: "US",
+            sayHi: function () {
+                alert(`how are you?`);
+            }
+        }
+        user.sayHi();
     </script>
 </body>
 
