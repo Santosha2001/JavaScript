@@ -1,4 +1,4 @@
-//arrays: like a container used to multiple items of any data types.
+//arrays: like a container used to store multiple items of any data types.
 let marks = [98, 76, 92, 86, 75, null, "not given"];
 console.log(marks);
 
